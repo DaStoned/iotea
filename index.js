@@ -41,7 +41,11 @@ if (useAws) {
 					.catch((err) => {
 						console.log(err)
 					});
+				// Log the parsed info
+				console.log(parsed)
 			}
+			// Log the packet in its entire glory
+			console.log(packet)
 		} catch (err) {
 			console.log(packet)
 			console.log(err)
